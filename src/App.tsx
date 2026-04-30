@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Instagram, MessageCircle, Globe, Zap } from "lucide-react";
+import { Instagram, Globe, Zap, MapPin } from "lucide-react";
 import { AnimatedBackground } from "./components/AnimatedBackground";
 import { LinkButton } from "./components/LinkButton";
 
@@ -60,10 +60,10 @@ function App() {
         {/* Links Section */}
         <div className="w-full space-y-4 mt-4">
           <LinkButton
-            icon={MessageCircle}
-            label="Chat With Us"
-            subLabel="Connect on WhatsApp"
-            href="https://wa.me/your-number"
+            icon={MapPin}
+            label="Our Location"
+            subLabel="Visit our shop"
+            href="https://maps.app.goo.gl/APosRbmC9gncGKX87"
             delay={0.6}
           />
           <LinkButton
@@ -77,7 +77,7 @@ function App() {
             icon={Globe}
             label="Visit Website"
             subLabel="Explore our latest collection"
-            href="https://yourdomain.com"
+            href="https://1000vibes.com"
             delay={0.8}
           />
         </div>
