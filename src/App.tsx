@@ -63,7 +63,7 @@ function App() {
             icon={MapPin}
             label="Our Location"
             subLabel="Visit our shop"
-            href="https://maps.app.goo.gl/APosRbmC9gncGKX87"
+            href="https://www.google.com/maps/place/1000+VIBES+GADGETS+-+NAGERCOIL/@8.1863197,77.4299308,17z/data=!3m1!4b1!4m6!3m5!1s0x3b04f10611dcaa13:0x63f66c473fdcb62f!8m2!3d8.1863197!4d77.4299308!16s%2Fg%2F11ys54wwdr"
             delay={0.6}
           />
           <LinkButton

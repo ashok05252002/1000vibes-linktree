@@ -6,6 +6,9 @@ module.exports = {
   content: [
     './src/**/*.{js,jsx,ts,tsx}',
   ],
+  future: {
+    hoverOnlyWhenSupported: true,
+  },
   theme: {
     extend: {}
   },

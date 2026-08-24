@@ -19,9 +19,7 @@ export const LinkButton = ({ icon: Icon, label, subLabel, href, delay = 0 }: Lin
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay, duration: 0.5, ease: "easeOut" }}
-      whileHover={{ scale: 1.02 }}
-      whileTap={{ scale: 0.98 }}
-      className="group relative w-full max-w-md mx-auto block"
+      className="group relative w-full max-w-md mx-auto block transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] touch-manipulation"
     >
       {/* Glow Effect Container */}
       <div className="absolute -inset-0.5 bg-gradient-to-r from-red-600 to-red-900 rounded-xl opacity-0 group-hover:opacity-75 blur transition duration-500 group-hover:duration-200" />
